@@ -48,7 +48,7 @@
     "sinon": "^8.1.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=8"
   },
   "husky": {
     "hooks": {
@@ -80,7 +80,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gajus/http-terminator"
+    "url": "https://github.com/yocdev/http-terminator"
   },
   "scripts": {
     "build": "rm -fr ./dist && NODE_ENV=production babel ./src --out-dir ./dist --copy-files --source-maps && flow-copy-source src dist",
@@ -88,5 +88,5 @@
     "lint": "eslint ./src ./test && flow",
     "test": "NODE_ENV=test ava --verbose --serial"
   },
-  "version": "1.0.0"
+  "version": "2.0.3"
 }
