@@ -61,7 +61,7 @@
   ],
   "license": "BSD-3-Clause",
   "main": "./dist/index.js",
-  "name": "http-terminator",
+  "name": "@yocdev/http-terminator",
   "nyc": {
     "all": true,
     "include": [
